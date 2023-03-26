@@ -1,0 +1,53 @@
+.ppp{
+    color: #384A62;
+    font-family: serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    text-decoration: none solid rgb(56, 74, 98);
+ }
+ 
+ .spp{
+    color: #d77f81;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 35.2px;
+    font-weight: 600;
+ }
+ 
+ .fs-edit{
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: 0.64px;
+     font-weight: 600;
+ }
+ 
+ .naira{
+     font-size: 28px;
+     line-height: 28px;
+     letter-spacing: 0.64px;
+     font-weight: 700;
+     color: #384A62;
+ }
+ 
+ .cardSection img{
+     height: 250px;
+ }
+ 
+ .cardSection .btn-warning{
+     background-color: #d77f81 !important;
+     border: none !important;
+ }
+ 
+ .cardSection .btn{
+     font-size: 16px !important;
+     line-height: 20px;
+     font-weight: 600;
+     font-family: sans-serif;
+ }
+
+ @media screen and (max-width:430px) {
+    .cardHeading{
+        font-size: 16px !important;
+    }
+ }

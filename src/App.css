@@ -1,38 +1,199 @@
-.App {
-  text-align: center;
+
+/* Navbar Styles */
+.btn-outline-secondary:hover{
+  background-color: white !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav a{
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width:800px) {
+  .leftNav{
+    display: none !important;
+  }
+  .rightNav{
+    text-align: center !important;
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width:470px) {
+    .needHelp{
+      display: none !important;
+    }
+    .naijaBtn{
+      margin-right: 185px !important;
+      margin-left: 10px !important;
+    }
+}
+
+/* Second Nav Class */
+.secondNav{
+  background-color: RGB(236, 232, 217)
+}
+.qualityPrint{
+  color: RGB(56, 74, 98);
+  font-size: 67.2px;
+  font-weight: 400;
+  font-family: serif;
+}
+.shipDoor{
+  color: #708095;
+  font-size: 24px;
+  font-weight: 600;
+}
+.inputSearch{
+  width: 150% !important;
+}
+
+@media screen and (max-width:730px) {
+   .inputSearch{
+     scale: 0.7;
+     margin-left: -93px;
+   }
+}
+
+
+@media screen and (max-width:450px) {
+  .inputSearch{
+    margin-left: -110px;
+    scale: 0.65;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width:425px) {
+  .inputSearch{
+    margin-left: -105px;
+    scale: 0.63;
   }
 }
+.printivoCard{
+  margin-right: -124px;
+}
+@media screen and (max-width:800px) {
+    .printivoCard{
+      display: none;
+    }
+}
+
+.print-shop-heading{
+ color: #384A62 !important;
+ font-size: 30px !important;
+ line-height: 36px;
+ font-weight: 600;
+}
+
+.print-shop-subheading{
+  color: #506683;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.customers-body{
+  background-color: #EDF6FD;
+}
+
+.customer-title{
+  color: #384A62;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.report-card{
+  background-color: white;
+}
+
+.customer-name{
+  font-size: 14px;
+}
+
+.customer-details{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  color: #384A62;
+}
+
+.service-heading{
+   color: #384A62;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 36px;
+}
+
+.service-header-one{
+  color: #384A62;
+  font-size: 15px;
+  line-height: 22.5px;
+  font-weight: 600;
+}
+
+.service-header-two{
+  color: #677F9E;
+  font-size: 15.5px;
+  line-height: 23.25px;
+  font-weight: 400;
+}
+
+.amazing-works-body{
+  background-color: #F7F6F4;
+}
+.amazing-works-header{
+  color: #384A62;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+
+}
+
+.amazing-work-link{
+  color: #384A62;
+  font-size: 15px;
+  line-height: 22.5px;
+  text-decoration: underline solid rgb(56, 74, 98);
+  font-weight: 500;
+  display: block;
+}
+
+.footer-section{
+  background-color: #384A62;
+}
+
+.footer-header{
+  color: #ECE8D9;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.footer-section li{
+  list-style-type: none;
+  padding-top: 8px;
+}
+
+.footer-section li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: -30px;
+}
+
+.copyright-section{
+  background-color: #CBCAC8;
+}
+
+.copyright-text{
+  color: #384A62;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+
+
+
