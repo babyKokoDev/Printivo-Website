@@ -49,7 +49,7 @@ const SecondNav = () => {
                         <span class="input-group-text" id="basic-addon1"><a href="#"><img src={search} /></a></span>
                     </div>
                 </div>
-                <div className='printivoCard'><img src={printivoCard} alt=""  width={450}/></div>
+                <div className='printivoCard'><img src={printivoCard} alt=""  width={430}/></div>
             </div>
         </div>
     )
